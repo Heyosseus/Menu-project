@@ -89,7 +89,7 @@ window.addEventListener('DOMContentLoaded', function(){
 displayMenuItems(menu);
 }); 
 // filter items
-filterBtns.forEach(function(btn){
+btns.forEach(function(btn){
     btn.addEventListener('click', function(e){
         const category = e.currentTarget.dataset.id;
         const menuCategory = menu.filter(function(menuItem){
